@@ -1,8 +1,5 @@
 local map = require("helpers.keys").map
 
--- Blazingly fast way out of insert mode
-map("i", "jk", "<esc>")
-
 -- Scroll half pages and center cursor in the middle of the screen
 map("n", "<C-u>", "<C-u>zz", "Scroll half page up")
 map("n", "<C-d>", "<C-d>zz", "Scroll half page down")

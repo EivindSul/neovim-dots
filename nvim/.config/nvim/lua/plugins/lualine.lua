@@ -14,11 +14,11 @@ return {
 			show_plugged_icon = false,
 			show_unplugged_icon = false,
 		})
+
 		local batteryIndicator = {
-		function()
-				return require("battery").get_status_line(
-				)
-			end,
+				function()
+					return require("battery").get_status_line()
+				end,
 		}
 
 		require("lualine").setup{
