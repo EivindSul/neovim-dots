@@ -19,8 +19,8 @@ end
 -- local colorscheme = get_if_available("catppuccin")
 -- local colorscheme = get_if_available("gruvbox-material")
 -- local colorscheme = get_if_available("rose-pine")
--- local colorscheme = get_if_available("OceanicNext")
-local colorscheme = get_if_available("everforest")
+local colorscheme = get_if_available("OceanicNext")
+-- local colorscheme = get_if_available("everforest")
 -- local colorscheme = get_if_available("melange")
 
 return colorscheme
