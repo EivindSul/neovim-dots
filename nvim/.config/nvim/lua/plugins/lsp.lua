@@ -42,6 +42,7 @@ return {
 					"lua_ls",
 					"pylsp",
 					"hls",
+					"clangd",
 				}
 			})
 
