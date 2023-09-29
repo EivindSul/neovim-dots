@@ -1,5 +1,24 @@
--- Miscelaneous fun stuff
 return {
+	{
+		'echasnovski/mini.nvim',
+		version = false
+	},
+	-- ai
+	-- pairs
+	-- starter
+	-- sessions
+	-- comment
+	-- bufremove
+	-- hipatterns for hex colors
+	-- jump
+	-- surround
+
+
+
+
+
+
+
 	-- Comment with haste
 	{
 		"numToStr/Comment.nvim",
