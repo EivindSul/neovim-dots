@@ -39,10 +39,15 @@ return {
 			require('mason').setup()
 			require('mason-lspconfig').setup({
 				ensure_installed = {
-					"lua_ls",
-					"pylsp",
-					"hls",
-					"clangd",
+					"lua_ls", -- Lua
+					"pyright",  -- Python
+					-- "pylsp",  -- Python
+					"hls",    -- Haskell
+					"clangd", -- C and C++
+					"texlab", -- LaTeX
+					-- "bashls", -- Bash REQUIRES NPM
+					-- "json-lsp", -- JSON REQUIRES NPM
+					"jdtls",  -- Java
 				}
 			})
 
