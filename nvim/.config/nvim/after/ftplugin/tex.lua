@@ -11,7 +11,7 @@ end
 function unmap (mode, lhs)
 	vim.keymap.del(mode, lhs)
 end
-
+-- Hei Hannah elsker deg!
 -- Add bold or italic text through Ctrl+b and Ctrl+i
 map("n", "<C-b>", "i\\textbf{}<esc>", "Insert bold text environment")
 map("n", "<C-i>", "i\\textit{}<esc>", "Insert italic text environment")
