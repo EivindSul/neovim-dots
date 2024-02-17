@@ -10,6 +10,7 @@ return {
 						f = { name = "File" },
 						d = { name = "Terminal" },
 						s = { name = "Search" },
+						S = { name = "Sessions" },
 						l = { name = "LSP" },
 						t = { name = "LaTeX" },
 						u = { name = "UI" },

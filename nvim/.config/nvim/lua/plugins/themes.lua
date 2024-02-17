@@ -25,7 +25,12 @@ return {
 		end,
 	},
 
+	{
 	"sainnhe/everforest",
+		init = function ()
+			vim.g.everforest_transparent_background = 1
+		end,
+	},
 
 	"savq/melange-nvim"
 }
