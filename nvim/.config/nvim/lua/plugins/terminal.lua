@@ -2,6 +2,7 @@ return {
 	{ -- Toggle floating or bottom terminals.
 		'akinsho/toggleterm.nvim',
 		version = "*",
+		enabled = false,
 		config = function()
 			require("toggleterm").setup()
 			local Terminal  = require('toggleterm.terminal').Terminal
