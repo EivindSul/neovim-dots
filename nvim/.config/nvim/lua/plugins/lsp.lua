@@ -48,6 +48,8 @@ return {
 					-- "bashls", -- Bash REQUIRES NPM
 					-- "json-lsp", -- JSON REQUIRES NPM
 					"jdtls",  -- Java
+					"tsserver",  -- Javascript, typescript
+					"eslint",  -- Javascript, typescript
 				}
 			})
 

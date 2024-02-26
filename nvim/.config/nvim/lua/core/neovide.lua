@@ -1,4 +1,4 @@
-vim.o.guifont = "Lekton Nerd Font Mono:h17"
+vim.o.guifont = "Lekton Nerd Font Mono:h18"
 
 vim.g.neovide_scroll_animation_length = 0.2
 vim.g.neovide_hide_mouse_when_typing = true

@@ -8,9 +8,9 @@ return {
 				{
 					["<leader>"] = {
 						f = { name = "File" },
-						d = { name = "Delete/Close" },
-						q = { name = "Quit" },
+						d = { name = "Terminal" },
 						s = { name = "Search" },
+						S = { name = "Sessions" },
 						l = { name = "LSP" },
 						t = { name = "LaTeX" },
 						u = { name = "UI" },

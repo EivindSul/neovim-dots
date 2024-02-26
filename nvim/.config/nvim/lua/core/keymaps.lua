@@ -5,11 +5,7 @@ map("n", "<C-u>", "<C-u>zz", "Scroll half page up")
 map("n", "<C-d>", "<C-d>zz", "Scroll half page down")
 
 -- Quick access to some common actions
-map("n", "<leader>fw", "<cmd>w<cr>", "Write")
-map("n", "<leader>fa", "<cmd>wa<cr>", "Write all")
-map("n", "<leader>qq", "<cmd>q<cr>", "Quit")
-map("n", "<leader>qa", "<cmd>qa!<cr>", "Quit all")
-map("n", "<leader>dw", "<cmd>close<cr>", "Window")
+map("n", "<leader>fw", "<cmd>close<cr>", "Window")
 
 -- Diagnostic keymaps
 map('n', 'gx', vim.diagnostic.open_float, "Show diagnostics under cursor")
@@ -38,9 +34,9 @@ map("n", "<C-Right>", ":vertical resize -2<CR>")
 
 -- Deleting buffers
 local buffers = require("helpers.buffers")
-map("n", "<leader>db", buffers.delete_this, "Current buffer")
-map("n", "<leader>do", buffers.delete_others, "Other buffers")
-map("n", "<leader>da", buffers.delete_all, "All buffers")
+map("n", "<leader>fb", buffers.delete_this, "Close current buffer")
+map("n", "<leader>fo", buffers.delete_others, "Close other buffers")
+map("n", "<leader>fa", buffers.delete_all, "Close all buffers")
 
 -- Navigate buffers
 map("n", "<S-l>", ":bnext<CR>")
@@ -61,3 +57,6 @@ end, "Toggle between light and dark themes")
 
 -- Clear after search
 map("n", "<leader>ur", "<cmd>nohl<cr>", "Clear highlights")
+
+-- Esc to exit insert mode in terminal
+map("t", "<Esc>", "<C-\\><C-N>", "Return to normal mode")

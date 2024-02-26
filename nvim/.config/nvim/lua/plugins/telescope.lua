@@ -25,7 +25,7 @@ return {
 			pcall(require("telescope").load_extension, "fzf")
 
 			local map = require("helpers.keys").map
-			map("n", "<leader>fr", require("telescope.builtin").oldfiles, "Recently opened")
+			map("n", "<leader>sr", require("telescope.builtin").oldfiles, "Recently opened")
 			map("n", "<leader><space>", require("telescope.builtin").buffers, "Open buffers")
 			map("n", "<leader>/", function()
 				-- You can pass additional configuration to telescope to change theme, layout, etc.
