@@ -5,7 +5,7 @@ return {
 		'echasnovski/mini.nvim',
 		version = false,
 		config = function()
-			require("mini.pairs").setup()
+			-- require("mini.pairs").setup() -- æsj ikke gøy
 			require("mini.ai").setup()
 			require("mini.sessions").setup()
 			require("mini.starter").setup()
@@ -42,5 +42,4 @@ return {
 		},
 	},
 	"tpope/vim-sleuth", -- Detect tabstop and shiftwidth automatically
-	-- "tpope/vim-surround", -- Surround stuff with the ys-, cs-, ds- commands
 }

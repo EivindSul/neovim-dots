@@ -1,6 +1,7 @@
 return {
 	{
 		"lervag/vimtex",
+		enabled = false,
 		lazy = false,
 		init = function()
 			vim.g.vimtex_view_method = 'skim'
@@ -10,6 +11,7 @@ return {
 		end,
 		config = function ()
 			local map = require("helpers.keys").map
+			-- TODO: Change from leader+t to something else
 			map("n", "<leader>ti", "<plug>(vimtex-info)", "VimTeX info")
 			map("n", "<leader>tI", "<plug>(vimtex-info-full)", "VimTeX info full")
 			map("n", "<leader>tt", "<plug>(vimtex-toc-open)", "Show table of contents")
