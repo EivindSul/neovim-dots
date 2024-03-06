@@ -5,7 +5,7 @@ return {
 		'echasnovski/mini.nvim',
 		version = false,
 		config = function()
-			-- require("mini.pairs").setup() -- æsj ikke gøy
+			require("mini.pairs").setup()
 			require("mini.ai").setup()
 			require("mini.sessions").setup()
 			require("mini.starter").setup()
