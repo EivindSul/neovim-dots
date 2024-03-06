@@ -8,13 +8,14 @@ return {
 				{
 					["<leader>"] = {
 						f = { name = "File" },
-						d = { name = "Terminal" },
+						-- d = { name = "Terminal" },
+						d = { name = "Debugging" },
 						s = { name = "Search" },
 						S = { name = "Sessions" },
 						l = { name = "LSP" },
-						t = { name = "LaTeX" },
+						t = { name = "Tests" },
+						T = { name = "LaTeX" },
 						u = { name = "UI" },
-						b = { name = "Debugging" },
 						g = { name = "Git" },
 					}
 				}
